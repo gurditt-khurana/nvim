@@ -26,6 +26,7 @@ require('lazy').setup({
   require 'gurditt/plugins/cmp',
 
   require 'gurditt/plugins/tokyonight',
+  -- require 'gurditt/plugins/catppuccin',
 
   require 'gurditt/plugins/todo-comments',
 

@@ -6,6 +6,15 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- Set tab width (number of spaces for a tab character)
+vim.opt.tabstop = 4
+
+-- Set shift width (number of spaces for each indentation level)
+vim.opt.shiftwidth = 4
+
+-- Make tabs insert spaces in insert mode
+vim.opt.softtabstop = 4
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
