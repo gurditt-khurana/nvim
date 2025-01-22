@@ -31,6 +31,7 @@ require('lazy').setup({
     require 'gurditt/plugins/treesitter',
 
     require 'gurditt/plugins/lazygit',
+    require 'gurditt/plugins/harpoon',
 }, {
     ui = {
         -- If you are using a Nerd Font: set icons to an empty table which will use the
